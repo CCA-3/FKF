@@ -259,4 +259,9 @@ footer{
   #blog-newsletter{
     padding: 50px;
   }
+  footer{
+    padding: 10px 50px;
+    justify-content: center;
+    text-align: center;
+  }
 }
