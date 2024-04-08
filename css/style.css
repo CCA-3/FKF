@@ -93,7 +93,7 @@
 }
 
 #pictures{
-  padding: 150px 150px;
+    padding: 0 150px 20px;
 }
 
 .parent {
@@ -216,7 +216,7 @@ footer{
     text-align: center;
   }
   #pictures{
-    padding: 40px 80px;
+      padding: 20px 150px;
   }
   .parent {
     width: 120%;
