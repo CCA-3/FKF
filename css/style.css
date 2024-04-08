@@ -115,11 +115,12 @@
 }
 
 .suppt-img{
-  border-radius: 100%;
+  display: flex;
+  justify-content: center;
 }
 .suppt-img > img{
   border-radius: 100%;
-  width: 25rem;
+  width: 20rem;
 }
 
 .txt-sup{
