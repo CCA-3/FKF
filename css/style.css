@@ -102,7 +102,6 @@
   grid-template-rows: repeat(5, 1fr);
   grid-column-gap: 10px;
   grid-row-gap: 10px;
-  justify-content: center;
 }
   
  
@@ -192,9 +191,19 @@ footer{
     display: flex;
     flex-direction: column;
   }
-  .parent{
-      width: 50%;
+  
+  .parent > img{
+    width: 100%;
   }
+
+  .parent {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(6, 1fr);
+    grid-column-gap: 5px;
+    grid-row-gap: 5px;
+  }
+
   .supt{
    display: flex;
    flex-direction: column;
@@ -214,15 +223,6 @@ footer{
     padding: 10px 50px;
     justify-content: center;
     text-align: center;
-  }
-  #pictures{
-      padding: 20px 150px;
-  }
-  .parent {
-    width: 120%;
-  }
-  .parent > img{
-  width:100%;  
   }
 
 }
