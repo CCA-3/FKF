@@ -116,7 +116,6 @@
 
 .suppt-img{
   border-radius: 100%;
-  width: auto;
 }
 .suppt-img > img{
   border-radius: 100%;
@@ -124,7 +123,6 @@
 }
 
 .txt-sup{
-  width: 100%;
   text-align: center;
 }
 
